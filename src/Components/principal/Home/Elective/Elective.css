@@ -1,0 +1,31 @@
+.displayElective {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.elective {
+  height: 100px;
+  border: 10px;
+  width: 300px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.elective:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+}
+.ElectiveBtn{
+    background-color: white;
+    border: 0px;
+}
